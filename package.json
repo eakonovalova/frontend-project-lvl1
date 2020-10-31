@@ -16,11 +16,8 @@
   },
   "homepage": "https://github.com/eakonovalova/frontend-project-lvl1#readme",
   "bin": {
-    "code": "brain-games.js"
+    "brain-games": "bin/brain-games.js"
   },
   "description": "",
-  "type": "module",
-  "bin": {
-    "brain-games": "bin/brain-games.js"
-  }
+  "type": "module"
 }
