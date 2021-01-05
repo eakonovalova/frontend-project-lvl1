@@ -6,9 +6,9 @@ const description = 'Answer "yes" if the number is even, otherwise answer "no".'
 const condition = (num) => ((num % 2 === 0) ? 'yes' : 'no');
 
 const qAndA = () => {
-  const num = getRandom();
-  const truth = condition(num);
-  return cons(num, truth);
+  const task = getRandom();
+  const answer = condition(task);
+  return cons(task, answer);
 };
 
 export default () => makeGame(description, qAndA);
