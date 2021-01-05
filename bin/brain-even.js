@@ -21,6 +21,9 @@ for (let i = 0; i < 3; i += 1) {
   // check answer
   if (answer === truth) {
     console.log('Correct!');
+    if (i === 2) {
+      console.log(`Congratulations, ${name}!`);
+    }
   } else {
     console.log(`'${answer}' is wrong answer ;(. Correct answer was '${truth}'.`);
     console.log(`Let's try again, ${name}!`);
