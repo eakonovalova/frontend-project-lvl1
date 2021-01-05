@@ -6,9 +6,9 @@ on: push
 jobs:
   # Set the job key. The key is displayed as the job name
   # when a job name is not provided
-  super-lint:
+  Eslint:
     # Name the Job
-    name: Lint code base
+    name: Eslint code base
     # Set the type of machine to run on
     runs-on: ubuntu-latest
 
@@ -18,8 +18,9 @@ jobs:
         uses: actions/checkout@v2
 
       # Runs the Super-Linter action
-      - name: Run Eslint
-        uses: make lint
+      - name: Run linter
+        run: |
+          make lint
         env:
           DEFAULT_BRANCH: master
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
