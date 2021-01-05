@@ -1,26 +1,12 @@
-name: Eslint
-
-# Run this workflow every time a new commit pushed to your repository
-on: push
-
+name: linter
+on: [push]
 jobs:
-  # Set the job key. The key is displayed as the job name
-  # when a job name is not provided
-  Eslint:
-    # Name the Job
-    name: Eslint code base
-    # Set the type of machine to run on
+  lint:
     runs-on: ubuntu-latest
-
     steps:
-      # Checks out a copy of your repository on the ubuntu-latest machine
-      - name: Checkout code
-        uses: actions/checkout@v2
-
-      # Runs the Super-Linter action
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v1
+      - name: Install
+        run: make install-deps
       - name: Run linter
-        run: |
-          make lint
-        env:
-          DEFAULT_BRANCH: master
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: make lint
