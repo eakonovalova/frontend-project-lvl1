@@ -21,3 +21,15 @@ win
 [![asciicast](https://asciinema.org/a/2Z2veyyqhO4Yqcoj2qQuIHe9Q.svg)](https://asciinema.org/a/2Z2veyyqhO4Yqcoj2qQuIHe9Q)
 lose
 [![asciicast](https://asciinema.org/a/aBfSyQi8mCSWPk86Q8ZQFacVg.svg)](https://asciinema.org/a/aBfSyQi8mCSWPk86Q8ZQFacVg)
+
+# brain-progression examples
+win
+[![asciicast](https://asciinema.org/a/quu6ttPW4XgRiGUBXodRCBKuA.svg)](https://asciinema.org/a/quu6ttPW4XgRiGUBXodRCBKuA)
+lose
+[![asciicast](https://asciinema.org/a/EnKw0LSf5LbOOBRGD8F4EfTwG.svg)](https://asciinema.org/a/EnKw0LSf5LbOOBRGD8F4EfTwG)
+
+# brain-prime examples
+win
+[![asciicast](https://asciinema.org/a/3CVPgRfubCigtdx2AdLGiXIF2.svg)](https://asciinema.org/a/3CVPgRfubCigtdx2AdLGiXIF2)
+lose
+[![asciicast](https://asciinema.org/a/JUYpCBsMzXKb5QRn6f87SGtGZ.svg)](https://asciinema.org/a/JUYpCBsMzXKb5QRn6f87SGtGZ)
