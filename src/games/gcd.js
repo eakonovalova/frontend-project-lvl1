@@ -10,8 +10,8 @@ const qAndA = () => {
   const num1 = getRandom();
   const num2 = getRandom();
   const task = `${num1} ${num2}`;
-  const answer = String(condition(num1, num2));
-  return cons(task, answer);
+  const answer = condition(num1, num2);
+  return cons(task, String(answer));
 };
 
 export default () => makeGame(description, qAndA);
