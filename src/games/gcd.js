@@ -1,7 +1,7 @@
 import { cons } from '@hexlet/pairs';
-import getRandom from '../random.js';
+import getRandom from '../helpers/random.js';
 import makeGame from '../index.js';
-import findGcd from '../findGcd.js';
+import findGcd from '../helpers/findGcd.js';
 
 const description = 'Find the greatest common divisor of given numbers.';
 const condition = (num1, num2) => findGcd(num1, num2);

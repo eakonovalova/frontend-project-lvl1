@@ -1,7 +1,7 @@
 import { cons } from '@hexlet/pairs';
-import getRandom from '../random.js';
+import getRandom from '../helpers/random.js';
 import makeGame from '../index.js';
-import createProgression from '../createProgression.js';
+import createProgression from '../helpers/createProgression.js';
 
 const description = 'Find the greatest common divisor of given numbers.';
 const condition = (progression, i) => {
