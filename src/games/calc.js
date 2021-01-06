@@ -14,6 +14,7 @@ const condition = (num1, num2, task) => {
   } if (task === '*') {
     return num1 * num2;
   }
+  return null;
 };
 
 const qAndA = () => {
