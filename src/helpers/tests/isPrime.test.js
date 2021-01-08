@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-import { strict as assert } from 'assert';
+import assert from 'power-assert';
 import prime from '../isPrime.js';
 
 assert(prime(0) === 'no');
