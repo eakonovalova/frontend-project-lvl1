@@ -11,5 +11,3 @@ assert(prime(7) === 'yes');
 
 assert(prime(24) === 'no');
 assert(prime(13) === 'yes');
-
-// chmod +x src/helpers/tests/isPrime.test.js
